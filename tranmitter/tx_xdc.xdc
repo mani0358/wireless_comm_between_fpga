@@ -1,0 +1,35 @@
+set_property PACKAGE_PIN J15 [get_ports {sw[0]}]
+set_property PACKAGE_PIN L16 [get_ports {sw[1]}]
+set_property PACKAGE_PIN M13 [get_ports {sw[2]}]
+set_property PACKAGE_PIN R15 [get_ports {sw[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {sw[*]}]
+
+set_property PACKAGE_PIN V10 [get_ports mode]
+set_property IOSTANDARD LVCMOS33 [get_ports mode]
+
+set_property PACKAGE_PIN H4 [get_ports {tx_data[0]}]
+set_property PACKAGE_PIN H1 [get_ports {tx_data[1]}]
+set_property PACKAGE_PIN G1 [get_ports {tx_data[2]}]
+set_property PACKAGE_PIN G3 [get_ports {tx_data[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {tx_data[*]}]
+
+set_property PACKAGE_PIN C17 [get_ports {rx_data[0]}]
+set_property PACKAGE_PIN D18 [get_ports {rx_data[1]}]
+set_property PACKAGE_PIN E18 [get_ports {rx_data[2]}]
+set_property PACKAGE_PIN G17 [get_ports {rx_data[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {rx_data[*]}]
+
+set_property PACKAGE_PIN D17 [get_ports vt]
+set_property IOSTANDARD LVCMOS33 [get_ports vt]
+
+set_property PACKAGE_PIN T10 [get_ports {seg[0]}]
+set_property PACKAGE_PIN R10 [get_ports {seg[1]}]
+set_property PACKAGE_PIN K16 [get_ports {seg[2]}]
+set_property PACKAGE_PIN K13 [get_ports {seg[3]}]
+set_property PACKAGE_PIN P15 [get_ports {seg[4]}]
+set_property PACKAGE_PIN T11 [get_ports {seg[5]}]
+set_property PACKAGE_PIN L18 [get_ports {seg[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg[*]}]
+
+set_property PACKAGE_PIN J17 [get_ports an]
+set_property IOSTANDARD LVCMOS33 [get_ports an]
